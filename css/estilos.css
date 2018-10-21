@@ -1,0 +1,124 @@
+.navegacion{
+	width: 100%;
+}
+body{
+	font-family: Verdana;
+	margin: 5px 5px;
+
+	
+
+
+}
+h1{
+	background: #005883;
+	color: white;
+	width: 100%;
+	font-size: 32px;
+	text-align: right;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	padding-right: 0px;
+	text-shadow: 2px 2px 2px #B3B3B3;
+
+}
+
+.menu{
+	background: #005883;
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.menu ul{
+	padding: 0;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 105px;
+	display: block;
+
+
+}
+.menu > li{
+	float: left;
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+	background: #005883;
+	list-style: none;
+
+}
+.menu li:hover ul{
+	display: block;
+}
+.menu li ul li a{
+	padding: 15px 10px;
+	display: block;
+}
+.menu li:hover{
+	background: #F0B429;
+}
+p{
+	text-align: justify;
+}
+.articles{
+	background: white;
+	width: 50%;
+	
+}
+
+.sede1{
+	background: black;
+	color: white;
+	font-size: 11px;
+	width: 50%;
+	height: 100px;
+
+
+
+
+}
+.sede2{
+	background: black;
+	color: white;
+	font-size: 11px;
+	width: 50%;
+	text-align: center;
+	height: 100px;
+
+
+
+	
+}
+div{
+	float: left;
+}
+.sede1 ul li{
+	list-style: none;
+}
+.sede2 ul li{
+	list-style: none;
+}
+.sede2 img{
+	width: 100px;
+	padding-top: 10px;
+
+}
+nav> ul> li> a{
+	font-size: 25px;
+}
+.calidad{
+	background: black;
+	margin-top: 1px;
+	width: 100%;
+	text-align: center;
+}
+.calidad img{
+	height: 90px;
+	padding-top: 8px;
+}
