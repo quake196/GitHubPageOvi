@@ -1,26 +1,34 @@
-.navegacion{
-	width: 100%;
+*{
+	margin: 0;
+	
+
+}
+#contenedor{
+	width: 920px;
+	margin: auto;
+	margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px
+
 }
 body{
 	font-family: Verdana;
-	margin: 5px 5px;
-
-	
-
+	background: #B3B3B3;
 
 }
-h1{
+header{
 	background: #005883;
+	height: 100%;
+	height: 300px;
+	margin-bottom: 2px;
 	color: white;
-	width: 100%;
-	font-size: 32px;
-	text-align: right;
-	padding-top: 120px;
-	padding-bottom: 120px;
-	padding-right: 0px;
-	text-shadow: 2px 2px 2px #B3B3B3;
-
+	text-shadow: 2px 2px #808080;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
 
 .menu{
 	background: #005883;
@@ -38,13 +46,16 @@ h1{
 .menu li a{
 	color: white;
 	text-decoration: none;
-	padding: 10px 105px;
+	padding: 10px 10px;
 	display: block;
+	font-weight: bold;
+	font-family: arial;
 
 
 }
 .menu > li{
 	float: left;
+
 }
 .menu li ul{
 	display: none;
@@ -63,55 +74,66 @@ h1{
 .menu li:hover{
 	background: #F0B429;
 }
-p{
-	text-align: justify;
+
+.main{
+	float: left;
+	width: 700px;
+	background: #FFFFFF;
+	border-radius: 0px;
+	overflow:  hidden;
+	margin-top: 2px;
+	margin-right: 10px;
+	margin-bottom: 2px;
 }
+
 .articles{
-	background: white;
-	width: 50%;
-	
-}
-
-.sede1{
-	background: black;
-	color: white;
-	font-size: 11px;
-	width: 50%;
-	height: 100px;
-
-
+	margin: 10px;
+	text-align: justify;
 
 
 }
-.sede2{
-	background: black;
-	color: white;
-	font-size: 11px;
-	width: 50%;
-	text-align: center;
-	height: 100px;
-
-
-
-	
+.articles h2{
+	font-size: 30px;
+	padding: 10px;
+	color: #000000;
+	border-bottom: 3px solid #F47920;
+	font-family: arial; 
 }
-div{
+
+footer{
+	color: #FFFFFF;
+	clear: both;
+
+}
+footer div{
 	float: left;
 }
-.sede1 ul li{
-	list-style: none;
+.sede1{
+	background: black;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+
+
+
 }
-.sede2 ul li{
-	list-style: none;
-}
-.sede2 img{
+.sede1 img{
 	width: 100px;
 	padding-top: 10px;
 
 }
-nav> ul> li> a{
-	font-size: 25px;
+
+.sede2{
+	background: black;
+	font-size: 12px;
+	width: 50%;
+	height: 100px;
+
 }
+.sede2 ul{
+		list-style: none;
+}
+
 .calidad{
 	background: black;
 	margin-top: 1px;
