@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	
+
+}
+#contenedor{
+	width: 920px;
+	margin: auto;
+	margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px
+
+}
+body{
+	font-family: Verdana;
+	background: #B3B3B3;
+
+}
+header{
+	background: #005883;
+	height: 100%;
+	height: 300px;
+	margin-bottom: 2px;
+	color: white;
+	text-shadow: 2px 2px #808080;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.menu{
+	background: #005883;
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.menu ul{
+	padding: 0;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 10px;
+	display: block;
+	font-weight: bold;
+	font-family: arial;
+
+
+}
+.menu > li{
+	float: left;
+
+}
+.menu li ul{
+	display: none;
+	position: absolute;
+	background: #005883;
+	list-style: none;
+
+}
+.menu li:hover ul{
+	display: block;
+}
+.menu li ul li a{
+	padding: 15px 10px;
+	display: block;
+}
+.menu li:hover{
+	background: #F0B429;
+}
+
+.main{
+	float: left;
+	width: 650px;
+	background: #FFFFFF;
+	border-radius: 0px;
+	overflow:  hidden;
+	margin-top: 10px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+}
+
+.articles{
+	margin: 10px;
+	text-align: justify;
+
+
+}
+.articles h2{
+	font-size: 30px;
+	padding: 10px;
+	color: #000000;
+	border-bottom: 3px solid #F47920;
+	font-family: arial; 
+}
+
+aside{
+	 float: right; 
+	 width: 268px;
+	 margin-top: 10px;
+	 border-radius: 4px;
+}
+
+
+
+
+aside h3{
+	font-family: 'Gotham Narrow';
+	font-size: 25px;
+	background: #F0B429;
+	color: black;
+	border-radius: 4px;
+	height: 60px;
+	margin-bottom: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+footer{
+	color: #FFFFFF;
+	clear: both;
+
+}
+footer div{
+	float: left;
+}
+.sede1{
+	background: black;
+	width: 50%;
+	height: 100px;
+	text-align: center;
+
+
+
+}
+.sede1 img{
+	width: 100px;
+	padding-top: 10px;
+
+}
+
+.sede2{
+	background: black;
+	font-size: 12px;
+	width: 50%;
+	height: 100px;
+
+}
+.sede2 ul{
+		list-style: none;
+}
+
+.calidad{
+	background: black;
+	margin-top: 1px;
+	width: 100%;
+	text-align: center;
+}
+.calidad img{
+	height: 90px;
+	padding-top: 8px;
+}
+
